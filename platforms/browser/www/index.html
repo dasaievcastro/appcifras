@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html ng-app="appcifra">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link rel="icon" type="image/png" href="images/splash/android-chrome-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" sizes="196x196" href="images/splash/apple-touch-icon-196x196.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/splash/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/splash/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/splash/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/splash/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/splash/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/splash/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/splash/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/splash/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="57x57" href="images/splash/apple-touch-icon-57x57.png">
+<link rel="icon" type="image/png" href="images/splash/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="images/splash/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="images/splash/favicon-16x16.png" sizes="16x16">
+<link rel="shortcut icon" href="images/splash/favicon.ico" type="image/x-icon" />
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    
+<title>App Eloi</title>
+
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="stylesheet" type="text/css" href="styles/menu.css">
+<link rel="stylesheet" type="text/css" href="styles/framework.css">
+<link rel="stylesheet" type="text/css" href="styles/font-awesome.css">
+
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/plugins.js"></script>
+<script type="text/javascript" src="scripts/angular.min.js"></script>
+<script type="text/javascript" src="scripts/angular.router.min.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+<script type="text/javascript" src="scripts/app.config.js"></script>
+<script type="text/javascript" src="components/menu/menu.module.js"></script>
+<script type="text/javascript" src="components/menu/menu.component.js"></script>
+<script type="text/javascript" src="components/favourite/favourite.module.js"></script>
+<script type="text/javascript" src="components/favourite/favourite.component.js"></script>
+<script type="text/javascript" src="components/search/search.module.js"></script>
+<script type="text/javascript" src="components/search/search.component.js"></script>
+<script type="text/javascript" src="components/footer-fix/footer-fix.module.js"></script>
+<script type="text/javascript" src="components/footer-fix/footer-fix.component.js"></script>
+
+</head>
+
+<body>
+
+        
+<menu></menu>
+            
+<div id="page-content">
+    <div id="page-content-scroll"><!--Enables this element to be scrolled -->        
+    <div ng-view></div>
+    <footer-fix></footer-fix>
+    </div>
+    
+    <a href="#" class="back-to-top-badge"><i class="fa fa-caret-up"></i>Voltar para o topo</a>
+</div>
+    
+<!--Social Share Items. Leave at the bottom -->
+</body>
+</html>

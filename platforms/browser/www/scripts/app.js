@@ -1,0 +1,1 @@
+angular.module('appcifra',['ngRoute','menu','footerFix','favourite','search'])

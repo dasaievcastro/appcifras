@@ -1,0 +1,33 @@
+<div class="header-clear"></div>
+<div class="content">
+    <div class="one-half-responsive">
+        <div class="container no-bottom">
+
+            <form action="#" method="post" >
+                <fieldset>
+                    <div class="formFieldWrap">
+                        <label class="field-title contactNameField" for="contactNameField"><span>(Obrigatorio)</span></label>
+                        <input ng-model="$ctrl.filtro" type="text" placeholder="Pesquisar" name="contactNameField" value="" class="contactField requiredField" id="contactNameField"/>
+                    </div>
+                    <!-- <div class="formSubmitButtonErrorsWrap contactFormButton">
+                        <input type="submit" class="buttonWrap button button-green contactSubmitButton" value="Pesquisar" data-formId="contactForm"/>
+                    </div> -->
+                    <div class="header-clear"></div>
+                    <div class="formFieldWrap">
+                        <h4>Pesquisar por: {{$ctrl.filtro.nome}}</h4>
+                    </div>
+                </fieldset>
+            </form>       
+        </div>
+        <div class="container no-bottom">
+            <div class="one-half-responsive" ng-repeat="musica in $ctrl.musicas | filter: $ctrl.filtro | orderBy:'nome' ">
+                <div class="user-item">
+                    <img class="user-item-image" src="/images/pictures/1t.jpg" alt="img">
+                    <h5>{{musica.nome}}</h5>
+                    <em>{{musica.categoria}}</em>
+                    <a href="{{musica.arquivo}}" class="user-item-icon-1 bg-blue-dark scale-hover"><i class="fa fa-caret-square-o-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>      
