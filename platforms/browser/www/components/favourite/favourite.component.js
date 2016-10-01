@@ -1,10 +1,10 @@
 
 
 angular.module('favourite').component('favourite',{
-	templateUrl:'/components/favourite/favourite.tmp.html'
+	templateUrl:'./components/favourite/favourite.tmp.html'
 
 }).component('favouriteList',{
-	templateUrl:'/components/favourite/favourite-list.tmp.html',
+	templateUrl:'./components/favourite/favourite-list.tmp.html',
 	controller: function FavouriteListController(){
 		var self = this
 		self.favoritos = [{

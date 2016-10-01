@@ -1,5 +1,5 @@
 angular.module('menu').component('menu',{
-	templateUrl:'/components/menu/menu.tmp.html',
+	templateUrl:'./components/menu/menu.tmp.html',
 	controller:function(){
 		$(document).ready(function () {       
 
