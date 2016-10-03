@@ -152,7 +152,7 @@ angular.module('menu').component('menu',{
        $('.header-search').toggleClass('active-search'); 
     });
     
-    $('.sidebar-tap-close, .close-sidebar').click(function(){ //
+    $('.sidebar-tap-close, .close-sidebar, .sidebar-menu a').click(function(){ //
         $('.sidebar-left, .sidebar-right').removeClass('active-sidebar-box'); 
         $('.sidebar-tap-close').removeClass('active-tap-close'); 
         $("#page-content, .header-fixed").css({
@@ -162,7 +162,7 @@ angular.module('menu').component('menu',{
             "-o-transform": "translateX(0px)", 
             "-ms-transform": "translateX(0px)"
         });
-        return false;
+        //return false;
     });
     
     //Open / Close Sidebar Submenu

@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html ng-app="appcifra">
 <head>
+<meta http-equiv="Content-Security-Policy" content="default-src data: ws: gap: 'self' 'unsafe-inline' http://gama-ca.com.br/; img-src data: 'self'; style-src 'self' 'unsafe-inline';  media-src *">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -29,12 +30,15 @@
 <link rel="stylesheet" type="text/css" href="./styles/menu.css">
 <link rel="stylesheet" type="text/css" href="./styles/framework.css">
 <link rel="stylesheet" type="text/css" href="./styles/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="./styles/custom.css">
 
-<script src="cordova.js"></script>
 <script type="text/javascript" src="./scripts/jquery.js"></script>
 <script type="text/javascript" src="./scripts/plugins.js"></script>
 <script type="text/javascript" src="./scripts/angular.min.js"></script>
 <script type="text/javascript" src="./scripts/angular.router.min.js"></script>
+<script type="text/javascript" src="./scripts/ng-cordova.min.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+
 <script type="text/javascript" src="./scripts/app.js"></script>
 <script type="text/javascript" src="./scripts/app.config.js"></script>
 <script type="text/javascript" src="./components/menu/menu.module.js"></script>

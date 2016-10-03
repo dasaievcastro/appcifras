@@ -1,0 +1,27 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-file-opener2": {
+            "PACKAGE_NAME": "com.dasaiev.cifras"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.dasaiev.cifras"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.dasaiev.cifras"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.dasaiev.cifras"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.dasaiev.cifras"
+        }
+    },
+    "dependent_plugins": {}
+}
