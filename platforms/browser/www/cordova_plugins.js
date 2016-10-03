@@ -227,6 +227,14 @@ module.exports = [
         "merges": [
             "window.FileSystem"
         ]
+    },
+    {
+        "file": "plugins/cordova-open/www/disusered.open.js",
+        "id": "cordova-open.Open",
+        "pluginId": "cordova-open",
+        "merges": [
+            "cordova.plugins.disusered"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -236,7 +244,8 @@ module.exports.metadata =
     "cordova-plugin-inappbrowser": "1.3.0",
     "cordova-plugin-whitelist": "1.2.2",
     "cordova-plugin-file-transfer": "1.5.1",
-    "cordova-plugin-file": "4.1.1"
+    "cordova-plugin-file": "4.1.1",
+    "cordova-open": "1.0.10"
 }
 // BOTTOM OF METADATA
 });

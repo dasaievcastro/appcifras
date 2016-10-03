@@ -1,8 +1,32 @@
 [
   {
     "nome": "Marca da vitória",
-    "arquivo": "./musicas/marcadavitoria.pdf",
+    "arquivo": "./musicas/marcadavitoria.jpg",
     "categoria": "Adoração",
     "artista": "Tony Allysson"
+  },
+  {
+    "nome": "Como és lindo",
+    "arquivo": "./musicas/comoeslindo.jpg",
+    "categoria": "Adoração",
+    "artista": "Vida Reluz"
+  },
+  {
+    "nome": "Kyrie Eleison",
+    "arquivo": "./musicas/kyrieshalom.jpg",
+    "categoria": "Perdão",
+    "artista": "Comunidade Shalom"
+  },
+  {
+    "nome": "Hoje Livre sou",
+    "arquivo": "./musicas/hojelivresou.jpg",
+    "categoria": "Adoração",
+    "artista": "Ministério Adoração e Vida"
+  },
+  {
+    "nome": "Amar-te Mais",
+    "arquivo": "./musicas/amartemais.jpg",
+    "categoria": "Ação de Graças",
+    "artista": "Davidson Silva"
   }
 ]

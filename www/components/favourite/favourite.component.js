@@ -19,5 +19,10 @@ angular.module('favourite').component('favourite',{
 			'nome':'Musica 3',
 			'categoria':"Entrada"
 		}];
+
+		$('.call-to-action a').bind('click',function(e){
+			var phoneLink = $(e.currentTarget).attr('href');
+    		window.open(phoneLink, '_system', 'location=yes');
+    	})
 	}
 })

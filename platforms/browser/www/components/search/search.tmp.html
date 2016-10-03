@@ -21,11 +21,11 @@
         </div>
         <div class="container no-bottom">
             <div class="one-half-responsive" ng-repeat="musica in $ctrl.musicas | filter: $ctrl.filtro | orderBy:'nome' | limitTo:10 ">
-                <div class="user-item">
+                <div class="user-item openMusic" data-href="{{musica.arquivo}}" >
                     <a href="{{musica.arquivo}}"> <img class="user-item-image" src="./img/listaMusicas.png" alt="img"></a>
                     <h5><a href="{{musica.arquivo}}" >{{musica.nome}}</a></h5>
-                    <em><a href="{{musica.arquivo}}" >{{musica.categoria + ' - ' + musica.artista}}</a></em>
-                    <a data-href="{{musica.arquivo}}" class="user-item-icon-1 bg-blue-dark scale-hover openMusic"><i class="fa fa-chevron-right"></i></a>
+                    <em><a data-href="{{musica.arquivo}}" >{{musica.categoria + ' - ' + musica.artista}}</a></em>
+                    <a class="user-item-icon-1 bg-blue-dark scale-hover"><i class="fa fa-chevron-right"></i></a>
                 </div>
             </div>
         </div>

@@ -21,6 +21,9 @@
         },
         "cordova-plugin-file": {
             "PACKAGE_NAME": "com.dasaiev.cifras"
+        },
+        "cordova-open": {
+            "PACKAGE_NAME": "com.dasaiev.cifras"
         }
     },
     "dependent_plugins": {}
