@@ -22,9 +22,9 @@
         <div class="container no-bottom">
             <div class="one-half-responsive" ng-repeat="musica in $ctrl.musicas | filter: $ctrl.filtro | orderBy:'nome' | limitTo:10 ">
                 <div class="user-item openMusic" data-href="{{musica.arquivo}}" >
-                    <a href="{{musica.arquivo}}"> <img class="user-item-image" src="./img/listaMusicas.png" alt="img"></a>
-                    <h5><a href="{{musica.arquivo}}" >{{musica.nome}}</a></h5>
-                    <em><a data-href="{{musica.arquivo}}" >{{musica.categoria + ' - ' + musica.artista}}</a></em>
+                    <img class="user-item-image" src="./img/listaMusicas.png" alt="img">
+                    <h5>{{musica.nome}}</a></h5>
+                    <em>{{musica.categoria + ' - ' + musica.artista}}</em>
                     <a class="user-item-icon-1 bg-blue-dark scale-hover"><i class="fa fa-chevron-right"></i></a>
                 </div>
             </div>
